@@ -38,7 +38,7 @@ function App() {
     <TodoProvider value={{ todos, addTodo, updateTodo, deleteTodo, toggleComplete }}>
       <div  >
         <div className="w-full max-w-3xl mx-auto shadow-md rounded-lg px-4 py-3 bg-slate-100 text-white">
-          <h1 className="text-2xl font-bold text-center text-rose-950 mb-8 mt-2">Todo Champ</h1>
+          <h1 className="text-2xl font-bold text-center text-rose-900 mb-8 mt-2">Todo Champ</h1>
           <div className="mb-4">
             <TodoForm />
           </div>
